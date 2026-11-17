@@ -39,9 +39,10 @@ body{background:var(--noir-bleute);color:var(--bleu-pale);font-family:var(--sans
 .lockup{display:block;width:clamp(300px,29vw,520px)}
 .lockup img{display:block;width:100%;height:auto}
 
-.main{margin:auto 0;padding:72px 0 64px;max-width:1260px}
+.main{margin:auto 0;padding:72px 0 64px}
 .function{font-weight:500;font-size:.875rem;letter-spacing:.24em;text-transform:uppercase;color:var(--outremer-clair);margin-bottom:28px}
-h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.25rem,4vw,4.5rem);line-height:1.08;color:var(--pierre);max-width:21em}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.25rem,3.8vw,4.5rem);line-height:1.08;color:var(--pierre);text-wrap:balance}
+@media (min-width:961px){h1{white-space:nowrap}}
 
 .definition{margin-top:44px;padding-top:28px;border-top:1px solid var(--filet);max-width:640px}
 .definition .head{display:flex;align-items:baseline;gap:16px}
